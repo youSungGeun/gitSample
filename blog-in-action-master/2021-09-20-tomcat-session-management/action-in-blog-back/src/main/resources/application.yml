@@ -1,0 +1,9 @@
+server:
+  servlet:
+    session:
+      timeout: 1m
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
